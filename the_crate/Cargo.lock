@@ -1,0 +1,4 @@
+[root]
+name = "test_name_conflict"
+version = "0.1.0"
+

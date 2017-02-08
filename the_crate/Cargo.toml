@@ -1,0 +1,19 @@
+[package]
+name = "the_crate"
+version = "0.1.0"
+authors = ["Nathanael Jones <nathanael.jones@gmail.com>"]
+workspace = "../"
+
+
+[dependencies]
+
+
+[[bin]]
+name = "tool2"
+path = "src/bin/tool2.rs"
+
+
+[[bin]]
+name = "tool1"
+path = "src/main.rs"
+doc = false
